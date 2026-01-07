@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    background-color: aquamarine;
+    font-size: 12px; 
+    font-family: 'Outfit', sans-serif;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+.container {
+  
+    flex-direction: column;
+    /*border: 2px solid red;*/
+    background-color: white;
+    border-radius: 12px;
+    max-width: 300px;
+    padding: 10px 10px 20px 10px;
+}
+.qr-container {
+    border-radius: 12px;
+    /*border: 2px solid blue;*/
+}
+img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.text {
+    
+    text-align: center;
+} 
+h1 {
+    padding: 2px;
+}
+p {
+    padding: 2px;
+    align-self: center;
+}
