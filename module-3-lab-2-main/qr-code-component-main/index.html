@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
   
   <title>Frontend Mentor | QR code component</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="stylesheet" href="styles.css">  -->
 
  
   <style>
@@ -16,10 +21,10 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> 
 </head>
-<body>
+<body class="bg-[aquamarine] min-h-screen flex flex-col items-center justify-center p-6"></body>
 
- <div class="container">
-    <div class="qr-container">
+<div class="bg-white p-4 rounded-[20px] max-w-[320px] flex flex-col items-center shadow-xl shadow-blue-200/50">
+    <div class="w-full mb-6">
       <img src="images/image-qr-code.png" alt="qr code">
     </div>
     <div class="text">
